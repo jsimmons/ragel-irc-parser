@@ -11,8 +11,16 @@
         printf("marking: %zu\n", fpc - argv[1]);
     }
 
-    action write_prefix {
-        printf("got a prefix: %zu\n", fpc - argv[1]);
+    action write_name {
+        printf("got a nick/servername(prefix): %zu\n", fpc - argv[1]);
+    }
+
+    action write_user {
+        printf("got a user(prefix): %zu\n", fpc - argv[1]);
+    }
+
+    action write_host {
+        printf("got a host(prefix): %zu\n", fpc - argv[1]);
     }
 
     action write_command {
