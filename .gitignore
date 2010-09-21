@@ -2,4 +2,5 @@
 *.out
 *.swp
 ~*
+*.o
 irc-parser
